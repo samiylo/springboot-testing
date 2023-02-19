@@ -3,6 +3,9 @@ package com.searchapi.demo.dbrepo;
 
 import jakarta.persistence.*;
 
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+
 @Entity
 @Table(name = "users")
 public class User {
@@ -16,6 +19,10 @@ public class User {
 
     @Column(name = "completed")
     private boolean completed;
+
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "createdTime")
+    public LocalTime createdTime;
 
     public User(){};
 
@@ -46,5 +53,10 @@ public class User {
 
     public void setCompleted(boolean completed) {
         this.completed = completed;
+    }
+
+    @PrePersist
+    public void prePersist() {
+        createdTime = LocalTime.now();
     }
 }
