@@ -1,4 +1,4 @@
-package com.searchapi.demo.dbrepo;
+package com.searchapi.demo.controller.dbrepo;
 
 
 import jakarta.persistence.*;
