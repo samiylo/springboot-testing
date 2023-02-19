@@ -3,6 +3,7 @@ package com.searchapi.demo.controller;
 import com.searchapi.demo.dbrepo.User;
 import com.searchapi.demo.dbrepo.UserRepository;
 import com.searchapi.demo.exceptions.ResourceNotFoundException;
+import jakarta.annotation.security.PermitAll;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -11,6 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/user")
+@PermitAll
 public class UserController {
 
     @Autowired
