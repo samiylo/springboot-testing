@@ -1,0 +1,5 @@
+Samiylo Kryshu,true
+Sammy Kryshu,false
+Alice,true
+Bob,false
+Charlie,true

@@ -1,8 +1,8 @@
-package com.searchapi.demo.controller;
+package com.searchapi.src.controller;
 
-import com.searchapi.demo.dbrepo.User;
-import com.searchapi.demo.dbrepo.UserRepository;
-import com.searchapi.demo.exceptions.ResourceNotFoundException;
+import com.searchapi.src.dbrepo.User;
+import com.searchapi.src.dbrepo.UserRepository;
+import com.searchapi.src.exceptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

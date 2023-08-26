@@ -1,4 +1,4 @@
-package com.searchapi.demo.dbrepo;
+package com.searchapi.src.dbrepo;
 
 import org.springframework.data.repository.CrudRepository;
 

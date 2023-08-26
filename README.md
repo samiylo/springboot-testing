@@ -29,7 +29,7 @@ Start the server
 ```
 
 ## 🚀 About Me
-Software Engineer with 5 years experience in Java technologies.
+Software Engineer with 5 years experience in designing, developing & maintaining distributed systems.
 
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samiylo)

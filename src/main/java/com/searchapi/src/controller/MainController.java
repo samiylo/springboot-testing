@@ -1,4 +1,4 @@
-package com.searchapi.demo.controller;
+package com.searchapi.src.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

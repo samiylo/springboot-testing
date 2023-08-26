@@ -1,7 +1,7 @@
-package com.searchapi.demo.dataloader;
+package com.searchapi.src.dataloader;
 
-import com.searchapi.demo.dbrepo.User;
-import com.searchapi.demo.dbrepo.UserRepository;
+import com.searchapi.src.dbrepo.User;
+import com.searchapi.src.dbrepo.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

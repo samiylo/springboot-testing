@@ -1,4 +1,4 @@
-package com.searchapi.demo;
+package com.searchapi.src;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

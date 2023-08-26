@@ -1,9 +1,8 @@
-package com.searchapi.demo.dbrepo;
+package com.searchapi.src.dbrepo;
 
 
 import jakarta.persistence.*;
 
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 @Entity
